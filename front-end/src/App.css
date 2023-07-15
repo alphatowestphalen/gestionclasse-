@@ -1,0 +1,39 @@
+.HomePage{
+  display: flex;
+  height: 100vh;
+}
+.navbars{
+  box-shadow: -2px 0px 5px 1px #141212;
+  width: 31%;
+  padding: 15px;
+}
+.navbars ul{
+  list-style: none;
+  margin-left: -31px;
+}
+.navbars ul li{
+  box-shadow: 0px 0px 2px 0px #141212;
+  margin: 12px;
+  padding: 14px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(49, 48, 48);
+}
+
+.navbars ul li:hover{
+  background-color: #0d6efd;
+  color: white;
+}
+.navbars ul li table tr th .tableAction{
+  text-align: right;
+}
+.prof{
+  background-color: #0d6efd;
+  display: flex;
+}
+.blockProf{
+  margin: 12px;
+  background-color: red;
+  display: inline-block;
+}
